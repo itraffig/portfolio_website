@@ -1,0 +1,20 @@
+{
+    "priceAll": 750,
+    "quantityAll": 3,
+    "items": [{
+            "id": 100,
+            "name": "Rebox Zane",
+            "price": 250,
+            "quantity": 2,
+            "src": "./img/cart_item1.jpg"
+        },
+        {
+            "id": 101,
+            "name": "Rebox Zane",
+            "price": 250,
+            "quantity": 1,
+            "src": "./img/cart_item2.jpg"
+        }
+        
+    ]
+}

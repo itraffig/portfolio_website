@@ -1,0 +1,55 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+$width-container: 1140px;
+
+%button-hover {
+    filter: brightness(80%);
+}
+
+%hover-menu-link {
+    filter: drop-shadow(0px 0px 4px #f16d7f);
+}
+
+%display-flex {
+    display: flex;
+}
+
+.container {
+    width: $width-container;
+    margin: 0 auto;
+}
+
+@import "./scss/header";
+
+@import "./scss/footer";
+
+@import "./scss/product-box";
+
+@import "./scss/index";
+
+@import "./scss/product";
+
+@import "./scss/checkout";
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    &__wrapper {
+        flex-grow: 1;
+    }
+}

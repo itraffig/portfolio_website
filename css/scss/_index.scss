@@ -1,0 +1,215 @@
+.banner {
+    height: 613px;
+    background-color: #e8e8e8;
+    margin-bottom: 98px;
+
+    &__back {
+        background-image: url(../img/back-banner.jpg);
+        height: 100%;
+        background-position-y: -51px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__block-text {
+        border-left: 12px solid #f16d7f;
+        padding-left: 12px;
+    }
+
+    &__text {
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: 0.025em;
+        color: #222222;
+
+        &_brand {
+            font-size: 60px;
+            line-height: 43px;
+            margin-bottom: 20px;
+        }
+
+        &_luxerious {
+            line-height: 30px;
+        }
+
+        &_color_red {
+            color: #f16d7f;
+        }
+    }
+}
+
+.offer {
+    margin-bottom: 80px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link {
+        display: block;
+    }
+
+    &__item {
+        margin-bottom: 20px;
+        position: relative;
+
+        &:hover .offer__block-text {
+            transition: all 1s;
+            transform: translate(30px, 0);
+        }
+
+        &_big {
+            width: 560px;
+            height: 542px;
+        }
+
+        &_smoll {
+            width: 560px;
+            height: 261px;
+        }
+    }
+
+    &__block-text {
+        position: absolute;
+        top: 26px;
+        padding: 16px 20px;
+        background-color: #ffffff;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        color: #222222;
+
+        &_red {
+            font-size: 30px;
+            color: #f16d7f;
+        }
+    }
+}
+
+.fetured {
+    margin-bottom: 113px;
+
+    &__title {
+        font-size: 30px;
+        line-height: 46px;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: #222222;
+        text-align: center;
+
+        &-description {
+            font-size: 14px;
+            line-height: 30px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #9f9f9f;
+            text-align: center;
+        }
+    }
+
+    &__product-box {
+        margin-top: 52px;
+        margin-bottom: 29px;
+    }
+
+    &__button {
+        display: inline-block;
+        background-color: #f16d7f;
+        text-decoration: none;
+        padding: 0 19px;
+        font-size: 16px;
+        line-height: 48px;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: #ffffff;
+        transition: all 0.3s;
+
+        &:hover {
+            @extend %button-hover;
+        }
+
+        &_arrow {
+            font-size: 15px;
+            margin-left: 9px;
+        }
+    }
+
+    &__wrapper-button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.offer-sales {
+    display: flex;
+    height: 529px;
+    background-color: #222224;
+    margin-bottom: 97px;
+
+    &__back {
+        background: url(../img/offer_back.png);
+        background-position-x: -7px;
+        width: 767px;
+        height: 100%;
+
+        &-text {
+            font-size: 53.7px;
+            line-height: 1.2;
+            font-weight: 700;
+            letter-spacing: 0.025em;
+            color: #ffffff;
+
+            &-block {
+                padding-top: 135px;
+                padding-left: 39px;
+            }
+
+            &_size {
+                font-size: 32.2px;
+            }
+
+            &_color_red {
+                color: #f16d7f;
+            }
+        }
+    }
+
+    &__list {
+        width: 333px;
+        padding-right: 43px;
+    }
+
+    &__block {
+        margin-top: 48px;
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.025em;
+        color: #fbfbfb;
+    }
+
+    &__img-title {
+        display: flex;
+        justify-content: center;
+        width: 111px;
+    }
+
+    &__description {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        letter-spacing: 0.025em;
+        color: #fbfbfb;
+        padding-left: 111px;
+    }
+}
